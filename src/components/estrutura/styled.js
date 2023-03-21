@@ -23,6 +23,7 @@ export const CenterH3 = styled.h3`
     font-size: 15px;
     font-weight: 600;
     color: var(--second-color);
+    line-height: 25px;
 
     @media screen and (max-width: 400px)  {
         font-size: 13px;

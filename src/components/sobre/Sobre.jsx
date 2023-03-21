@@ -9,7 +9,7 @@ export default function feature() {
     return(
         <Sobre id="sobre">
             <CenterText>
-                <CenterH2>Características</CenterH2>
+                <CenterH2>Característica</CenterH2>
                 <CenterH3>O planeta Terra é o planeta habitado por nós, seres vivos. Conhecido também como planeta água, é o maior dentre os quatro planetas rochosos que fazem parte do Sistema Solar.</CenterH3>
             </CenterText>
 

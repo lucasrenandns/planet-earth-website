@@ -28,7 +28,7 @@ export const GlogalStyles = createGlobalStyle`
 
     @media screen and (max-width: 1150px) {
         section {
-            padding: 50px 2%;
+            padding: 60px 2%;
         }
     }
 
