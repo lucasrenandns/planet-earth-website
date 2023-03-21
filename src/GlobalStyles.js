@@ -13,7 +13,7 @@ export const GlogalStyles = createGlobalStyle`
     #root {
         width: 100%;
         min-height: 100vh;
-        background-image: linear-gradient(to bottom, #0a4edf, #0034a5);
+        background-color: #0034a5;
     }
 
     :root {

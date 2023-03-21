@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Footer = styled.footer`
     text-align: center;
     padding: 15px;
+    border-top: 1px solid #fafafa;
 `
 
 export const Paragraph = styled.p`

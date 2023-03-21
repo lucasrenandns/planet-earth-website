@@ -10,11 +10,13 @@ export const Header = styled.header`
     align-items: center;
     justify-content: space-between;
     padding: 17px 5%;
+    border-bottom: 1px solid transparent;
     transition: 0.5s ease;
     
     &.sticky {
         padding: 14px 5%;
         background-color: #000cb1;
+        border-bottom: 1px solid #fafafa;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     }
 
@@ -38,7 +40,7 @@ export const NavBar = styled.nav`
         left: 0;
         right: 0;
         width: 100%;
-        background-color: #003866;
+        background-color: #0034d5;
         transition: 0.5s ease;
 
         &.active {
@@ -79,12 +81,11 @@ export const LinkStyle = styled.a`
 
     @media screen and (max-width: 1150px) {
         display: block;
-        color: #fff;
         padding: 1rem;
 
         &:hover {
-            background-color: #004edf;
-            color: #fff;
+            background-color: #0f0;
+            color: #000;
         }
     }
 `
