@@ -1,5 +1,5 @@
 import { HashLink as Link } from "react-router-hash-link"
-import home_image from "../../assets/earth.jpg"
+import home_image from "../../assets/earth.png"
 
 import { Home,
 HomeText,

@@ -1,4 +1,4 @@
-import globo_image from '../../assets/globo.jpg'
+import globo_image from '../../assets/globo.png'
 
 import { CuriosidadeSection,
 CenterText,

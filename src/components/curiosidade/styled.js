@@ -43,7 +43,7 @@ export const LeftSide = styled.figure`
 `
 
 export const LeftSideImage = styled.img`
-    width: 200px;
+    width: 280px;
     max-width: 100%;
     height: auto;
 `
