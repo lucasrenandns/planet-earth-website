@@ -14,7 +14,6 @@ export const GlogalStyles = createGlobalStyle`
         width: 100%;
         min-height: 100vh;
         background-color: #001861;
-        /* background-color: #0034a5; */
     }
 
     :root {
