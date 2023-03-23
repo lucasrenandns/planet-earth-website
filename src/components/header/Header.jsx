@@ -12,13 +12,13 @@ MenuIcon,
 } from './styled';
 
 export default function header() {
-    const headRef = useRef(null)
+    const headerRef = useRef(null)
     const navRef = useRef(null)
     const [menuIcon, setMenuIcon] = useState(BiMenu)
 
     const stickyScroll = () => {
         window.addEventListener("scroll", () => {
-            headRef.current.classList.toggle("sticky", window.scrollY > 0)
+            headerRef.current.classList.toggle("sticky", window.scrollY > 0)
         }) 
     }
 
@@ -44,7 +44,7 @@ export default function header() {
     useEffect(hiddenMenu)
 
     return(
-        <Header ref={headRef} onScroll={stickyScroll}>
+        <Header ref={headerRef} onScroll={stickyScroll}>
             <Logo href='/'>Planeta Terra</Logo>
 
             <NavBar ref={navRef} onScroll={hiddenMenu}>
@@ -55,6 +55,10 @@ export default function header() {
                     
                     <List>
                         <Link smooth to={'#sobre'}><LinkStyle>Característica</LinkStyle></Link>
+                    </List>
+
+                    <List>
+                        <Link smooth to={'#camadas'}><LinkStyle>Camadas</LinkStyle></Link>
                     </List>
 
                     <List>

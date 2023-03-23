@@ -13,7 +13,8 @@ export const GlogalStyles = createGlobalStyle`
     #root {
         width: 100%;
         min-height: 100vh;
-        background-color: #0034a5;
+        background-color: #001861;
+        /* background-color: #0034a5; */
     }
 
     :root {

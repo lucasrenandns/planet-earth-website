@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 export const Footer = styled.footer`
     text-align: center;
-    padding: 15px;
-    border-top: 1px solid #fafafa;
+    padding: 20px;
+    border-top: 1px solid #0f0;
 `
-
 export const Paragraph = styled.p`
     font-size: 1rem;
     font-weight: 500;

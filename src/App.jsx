@@ -6,6 +6,7 @@ import Estrutura from './components/estrutura/Estrutura'
 import Formacao from './components/formacao/Formacao'
 import Curiosidade from './components/curiosidade/Curiosidade'
 import Footer from './components/footer/Footer'
+import Camadas from './components/camadas/Camadas'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Header/>
         <Home/>
         <Sobre/>
+        <Camadas/>
         <Estrutura/>
         <Formacao/>
         <Curiosidade/>

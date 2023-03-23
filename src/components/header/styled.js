@@ -11,12 +11,12 @@ export const Header = styled.header`
     justify-content: space-between;
     padding: 17px 5%;
     border-bottom: 1px solid transparent;
-    transition: 0.5s ease;
+    transition: all 0.5s ease;
     
     &.sticky {
         padding: 14px 5%;
-        background-color: #000cb1;
-        border-bottom: 1px solid #fafafa;
+        background-color: #002bad;
+        border-bottom: 1px solid #0f0;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     }
 
@@ -65,7 +65,7 @@ export const List = styled.li`
     @media screen and (max-width: 1150px) {
         width: 100%;
         padding: 0;
-        margin: 15px 0;
+        margin: 10px 0;
     }
 `
 export const LinkStyle = styled.a`
