@@ -11,7 +11,7 @@ export default function camadas() {
         <CamadasSection id="camadas">
             <CenterText>
                 <CenterTextH2>Camadas internas</CenterTextH2>
-                <CenterTextH3>Camadas intenas do nosso planeta</CenterTextH3>
+                <CenterTextH3>Camadas internas do nosso planeta</CenterTextH3>
             </CenterText>
 
             <CamadasContainer>
