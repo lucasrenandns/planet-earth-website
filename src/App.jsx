@@ -1,4 +1,4 @@
-import {GlogalStyles} from './GlobalStyles'
+import {GlobalStyles} from './GlobalStyles'
 import Header from './components/header/Header'
 import Home from './components/home/Home'
 import Sobre from './components/sobre/Sobre'
@@ -11,7 +11,7 @@ import Camadas from './components/camadas/Camadas'
 export default function App() {
   return (
     <div className="App">
-        <GlogalStyles/>
+        <GlobalStyles/>
         <Header/>
         <Home/>
         <Sobre/>
