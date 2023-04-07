@@ -46,7 +46,7 @@ export const Box = styled.div`
     transition: all 0.5s ease;
 
     &:hover {
-        transform: translateY(-5px);
+        transform: scale(1.03) translateY(5px);
         cursor: pointer;
     }
 

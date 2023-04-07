@@ -33,6 +33,12 @@ export const FormacaoContainer = styled.main`
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+
+    &:hover {
+        transform: scale(1.03);
+        cursor: pointer;
+    }
 `
 export const Paragraph = styled.p`
     font-size: 15px;

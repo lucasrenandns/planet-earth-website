@@ -10,7 +10,7 @@ export default function formação() {
         <FormacaoSection id="formacao">
             <CenterText>
                 <CenterH2>Formação</CenterH2>
-                <CenterH3>Estima-se que nosso planeta tenha sido formado há, mais ou menos, 4,6 bilhões de anos. De lá pra cá, a Terra passou por constantes mudanças, algumas nítidas, outras bem longas e que os seres humanos não percebem.</CenterH3>
+                <CenterH3>Estima-se que nosso planeta tenha sido formado há, mais ou menos, 4,6 bilhões de anos.</CenterH3>
             </CenterText>
 
             <FormacaoContainer>

@@ -36,6 +36,12 @@ export const SobreContainer = styled.main`
     border-radius: 5px;
     margin: 2rem 0 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+
+    &:hover {
+        transform: scale(1.03);
+        cursor: pointer;
+    }
 `
 
 export const Paragraph = styled.p`

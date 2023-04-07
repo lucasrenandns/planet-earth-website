@@ -10,7 +10,7 @@ export default function estrutura() {
     return(
         <EstruturaSection id="estrutura">
             <CenterText>
-                <CenterH2>Estrutura externa da terra</CenterH2>
+                <CenterH2>Estrutura externa</CenterH2>
                 <CenterH3>O que diz respeito à parte externa do planeta Terra, há também uma classificação de sua estrutura.</CenterH3>
             </CenterText>
 
