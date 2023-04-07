@@ -10,7 +10,7 @@ export default function camadas() {
     return(
         <CamadasSection id="camadas">
             <CenterText>
-                <CenterTextH2>Camadas internas</CenterTextH2>
+                <CenterTextH2>Camadas da Terra</CenterTextH2>
                 <CenterTextH3>As camadas da Terra são a crosta terrestre, o manto e o núcleo</CenterTextH3>
             </CenterText>
 

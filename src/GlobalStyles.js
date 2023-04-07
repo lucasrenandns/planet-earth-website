@@ -5,7 +5,7 @@ export const GlobalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Inter', sans-serif;
         list-style: none;
         text-decoration: none;
     }
@@ -26,7 +26,7 @@ export const GlobalStyles = createGlobalStyle`
         padding: 80px 5%;
     }
 
-    @media screen and (max-width: 1150px) {
+    @media screen and (max-width: 1240px) {
         section {
             padding: 60px 2%;
         }

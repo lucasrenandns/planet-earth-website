@@ -7,7 +7,7 @@ export const Home = styled.section`
     align-items: center;
     gap: 4rem;
 
-    @media screen and (max-width: 887px) {
+    @media screen and (max-width: 931px) {
         grid-template-columns: 1fr;
         text-align: center;
         gap: 4rem;
@@ -16,7 +16,7 @@ export const Home = styled.section`
 `
 
 export const HomeText = styled.div`
-    @media screen and (max-width: 887px) {
+    @media screen and (max-width: 931px) {
         padding-top: 4rem;
     }
 `
@@ -28,7 +28,7 @@ export const Title = styled.h1`
     margin-bottom: 1rem;
     color: var(--text-color);
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 432px) {
         font-size: 3.3rem;
     }
 `
@@ -39,7 +39,7 @@ export const Paragraph = styled.p`
     font-weight: 500;
     line-height: 30px;
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 432px) {
         font-size: 14px;
     }
 `

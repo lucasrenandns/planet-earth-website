@@ -20,7 +20,7 @@ export const Header = styled.header`
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     }
 
-    @media screen and (max-width: 1150px) {
+    @media screen and (max-width: 1240px) {
         padding: 17px 2%;
         &.sticky {
             padding: 13px 2%;
@@ -34,7 +34,7 @@ export const Logo = styled.a`
 `
 
 export const NavBar = styled.nav`
-    @media screen and (max-width: 1150px) {
+    @media screen and (max-width: 1240px) {
         position: absolute;
         top: -500px;
         left: 0;
@@ -53,7 +53,7 @@ export const NavList = styled.ul`
     display: flex;
     align-items: center;
 
-    @media screen and (max-width: 1150px) {
+    @media screen and (max-width: 1240px) {
         flex-direction: column;
         align-items: flex-start;
     }
@@ -62,7 +62,7 @@ export const List = styled.li`
     padding: 10px 25px;
     margin: 0 5px;
 
-    @media screen and (max-width: 1150px) {
+    @media screen and (max-width: 1240px) {
         width: 100%;
         padding: 0;
         margin: 10px 0;
@@ -79,7 +79,7 @@ export const LinkStyle = styled.a`
         color: #0f0;
     }
 
-    @media screen and (max-width: 1150px) {
+    @media screen and (max-width: 1240px) {
         display: block;
         padding: 1rem;
 
@@ -97,7 +97,7 @@ export const MenuIcon = styled.div`
     cursor: pointer;
     display: none;
 
-    @media screen and (max-width: 1150px) {
+    @media screen and (max-width: 1240px) {
         display: inline-flex;
         align-items: center;
     }

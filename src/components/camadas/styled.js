@@ -47,7 +47,7 @@ export const Box = styled.div`
     }
 
     h4 {
-        margin-bottom: 8px;
+        margin-bottom: 1rem;
         font-size: 1rem;
         font-weight: 700;
     }

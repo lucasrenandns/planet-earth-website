@@ -53,7 +53,7 @@ export const Box = styled.div`
     & h4 {
         font-size: 1rem;
         font-weight: 700;
-        margin-bottom: 8px;
+        margin-bottom: 1rem;
     }
 
     &:hover h4 {
