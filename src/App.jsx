@@ -10,16 +10,16 @@ import Camadas from './components/camadas/Camadas'
 
 export default function App() {
   return (
-    <div className="App">
-        <GlobalStyles/>
-        <Header/>
-        <Home/>
-        <Sobre/>
-        <Camadas/>
-        <Estrutura/>
-        <Formacao/>
-        <Curiosidade/>
-        <Footer/>
-    </div>//End App
+    <>
+      <GlobalStyles/>
+      <Header/>
+      <Home/>
+      <Sobre/>
+      <Camadas/>
+      <Estrutura/>
+      <Formacao/>
+      <Curiosidade/>
+      <Footer/>
+    </>
   )
 }

@@ -62,6 +62,27 @@ export const List = styled.li`
     padding: 10px 25px;
     margin: 0 5px;
 
+    .nav-link {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        transition: color 0.5s ease;
+        
+        &:hover {
+            color: #0f0;
+        }
+
+        @media screen and (max-width: 1240px) {
+            display: block;
+            padding: 1rem;
+    
+            &:hover {
+                background-color: #0f0;
+                color: #000;
+            }
+        }
+    }
+    
     @media screen and (max-width: 1240px) {
         width: 100%;
         padding: 0;
@@ -69,25 +90,7 @@ export const List = styled.li`
     }
 `
 export const LinkStyle = styled.a`
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 600;
-    text-decoration: none;
-    transition: 0.5s ease;
-
-    &:hover {
-        color: #0f0;
-    }
-
-    @media screen and (max-width: 1240px) {
-        display: block;
-        padding: 1rem;
-
-        &:hover {
-            background-color: #0f0;
-            color: #000;
-        }
-    }
+    
 `
 
 export const MenuIcon = styled.div`

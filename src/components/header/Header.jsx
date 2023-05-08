@@ -7,14 +7,13 @@ Logo,
 NavBar, 
 NavList, 
 List,
-LinkStyle,
 MenuIcon,
 } from './styled';
 
 export default function header() {
+    const [menuIcon, setMenuIcon] = useState(<BiMenu/>)
     const headerRef = useRef(null)
     const navRef = useRef(null)
-    const [menuIcon, setMenuIcon] = useState(BiMenu)
 
     const stickyScroll = () => {
         window.addEventListener("scroll", () => {
@@ -25,18 +24,18 @@ export default function header() {
     const toggleMenu = () => {
         if(navRef.current.classList.contains("active")) {
             navRef.current.classList.remove("active")
-            setMenuIcon(BiMenu)
+            setMenuIcon(<BiMenu/>)
         }
         else {
             navRef.current.classList.add("active")
-            setMenuIcon(IoClose)
+            setMenuIcon(<IoClose/>)
         }
     }
 
     const hiddenMenu = () => {
         window.addEventListener("scroll", () => {
             navRef.current.classList.remove("active")
-            setMenuIcon(BiMenu)
+            setMenuIcon(<BiMenu/>)
         })
     }
 
@@ -50,27 +49,27 @@ export default function header() {
             <NavBar ref={navRef} onScroll={hiddenMenu}>
                 <NavList>
                     <List>
-                        <Link smooth to={'#home'}><LinkStyle>Home</LinkStyle></Link>
+                        <Link className='nav-link' smooth to={'#home'}>Home</Link>
                     </List>
                     
                     <List>
-                        <Link smooth to={'#sobre'}><LinkStyle>Característica</LinkStyle></Link>
+                        <Link className='nav-link' smooth to={'#sobre'}>Característica</Link>
                     </List>
 
                     <List>
-                        <Link smooth to={'#camadas'}><LinkStyle>Camadas</LinkStyle></Link>
+                        <Link className='nav-link' smooth to={'#camadas'}>Camadas</Link>
                     </List>
 
                     <List>
-                        <Link smooth to={'#estrutura'}><LinkStyle>Estrutura</LinkStyle></Link>
+                        <Link className='nav-link' smooth to={'#estrutura'}>Estrutura</Link>
                     </List>
 
                     <List>
-                        <Link smooth to={'#formacao'}><LinkStyle>Formação</LinkStyle></Link>
+                        <Link className='nav-link' smooth to={'#formacao'}>Formação</Link>
                     </List>
 
                     <List>
-                        <Link smooth to={'#curiosidade'}><LinkStyle>Curiosidade</LinkStyle></Link>
+                        <Link className='nav-link' smooth to={'#curiosidade'}>Curiosidade</Link>
                     </List>
                 </NavList>
             </NavBar>
