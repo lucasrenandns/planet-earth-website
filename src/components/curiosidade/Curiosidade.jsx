@@ -1,12 +1,11 @@
 import globo_image from '../../assets/globo.png'
-
 import { CuriosidadeSection,
 CenterText,
 CenterTextH2,
 CenterTextH3,
 CuriosidadeContainer,
 LeftSide,
-LeftSideImage,
+Image,
 RightSide,
 RightSideList,
 List } from "./styled";
@@ -21,7 +20,7 @@ export default function curiosidade() {
 
             <CuriosidadeContainer>
                 <LeftSide>
-                    <LeftSideImage src={globo_image}></LeftSideImage>
+                    <Image src={globo_image} alt='Globo image'/>
                 </LeftSide>
 
                 <RightSide>

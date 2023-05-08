@@ -42,7 +42,7 @@ export const LeftSide = styled.figure`
     text-align: center;
 `
 
-export const LeftSideImage = styled.img`
+export const Image = styled.img`
     width: 280px;
     max-width: 100%;
     height: auto;

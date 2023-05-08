@@ -16,6 +16,30 @@ export const Home = styled.section`
 `
 
 export const HomeText = styled.div`
+    .button {
+        display: inline-block;
+        margin-top: 2rem;
+        padding: 8px 20px;
+        border: 1px solid transparent;
+        outline: none;
+        background-color: var(--text-color);
+        color: #000;
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: capitalize; 
+        border-radius: 5px;
+        transition: 0.5s ease;
+
+        &:hover {
+            cursor: pointer;
+            background-color: transparent;
+            border: 1px solid #0f0;
+            box-shadow: 0 0 10px #0f0;
+            color: var(--text-color);
+            transform: translateY(-5px);
+        }
+    }
+
     @media screen and (max-width: 931px) {
         padding-top: 4rem;
     }
@@ -41,29 +65,6 @@ export const Paragraph = styled.p`
 
     @media screen and (max-width: 432px) {
         font-size: 14px;
-    }
-`
-
-export const Button = styled.button`
-    margin-top: 2rem;
-    padding: 8px 20px;
-    border: 1px solid transparent;
-    outline: none;
-    background-color: var(--text-color);
-    color: #000;
-    font-size: 1rem;
-    font-weight: 500;
-    text-transform: capitalize; 
-    border-radius: 5px;
-    transition: 0.5s ease;
-
-    &:hover {
-        cursor: pointer;
-        background-color: transparent;
-        border: 1px solid #0f0;
-        box-shadow: 0 0 10px #0f0;
-        color: var(--text-color);
-        transform: translateY(-5px);
     }
 `
 
