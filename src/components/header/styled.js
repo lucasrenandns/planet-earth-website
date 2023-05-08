@@ -89,9 +89,6 @@ export const List = styled.li`
         margin: 10px 0;
     }
 `
-export const LinkStyle = styled.a`
-    
-`
 
 export const MenuIcon = styled.div`
     font-size: 33px;
